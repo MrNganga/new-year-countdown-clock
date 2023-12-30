@@ -1,0 +1,43 @@
+{% extends 'countdown/home.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+    <h1 class="heading">
+        <span>New Year's Day</span>
+        <span class="heading_sub"> is in </span>
+        <div id="countdown-message" class="countdown-message"></div>
+
+    </h1>
+    <div class="counter">
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="days">00</span>
+                <span class="caption">days</span>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="hours">00</span>
+                <span class="caption">hours</span>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="minutes">00</span>
+                <span class="caption">minutes</span>
+            </div>
+        </div>
+        <div class="glass">
+            <div class="card">
+                <span class="value" id="seconds">00</span>
+                <span class="caption">seconds</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="{% static 'js/script.js' %}"></script>
+{% endblock %}
