@@ -81,7 +81,6 @@ DATABASES = {
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://newyear_countdownd_user:CfpypyYfNykHnOCCUov7lOuNwRL8W2Hf@dpg-cm80no8cmk4c738vm4p0-a.oregon-postgres.render.com/newyear_countdownd ")
 
 
 # Password validation
